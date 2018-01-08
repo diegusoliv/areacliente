@@ -52,7 +52,7 @@ function loadProfile() {
 }
 
 /**
- * function that checks if the browser supports HTML5
+ * function that checks if the browser support s HTML5
  * local storage
  *
  * @returns {boolean}
@@ -61,7 +61,7 @@ function supportsHTML5Storage() {
     try {
         return 'localStorage' in window && window['localStorage'] !== null;
     } catch (e) {
-        return false;
+        return false || true;
     }
 }
 
