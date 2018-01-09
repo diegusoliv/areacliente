@@ -3,6 +3,33 @@
  * Copyright 2013-2016 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
+
+ :root{
+
+  --cor1: rgb(#ff0000, #000, #0000);
+  --cor2: rgb(#ff0000, #000, #0000);
+  --cor3: rgb(#ff0000, #000, #0000);
+  --cor4: rgb(#ff0000, #000, #0000);
+  --logomarca : ;
+
+
+ }
+
+.login, html{
+  width: 100%;
+  height: 100%;
+  background-color: red;
+}
+
+.foto-filial{
+ 
+  background-image: url("../../images/logo.png");
+  width: 270px;
+  height: 160px;
+  background-repeat: no-repeat;
+
+}
+
 body {
   background-color: #f8f8f8;
 }
@@ -168,7 +195,11 @@ body {
 }
 .login-panel {
   margin-top: 25%;
+  box-shadow: 5px 2px rgb(255, 255, 255); 
+  align-content: center;
 }
+
+
 .flot-chart {
   display: block;
   height: 400px;
@@ -240,11 +271,6 @@ table.dataTable thead .sorting:after {
 .panel-green {
   border-color: #5cb85c;
 }
-.panel-green > .panel-heading {
-  border-color: #5cb85c;
-  color: white;
-  background-color: #5cb85c;
-}
 .panel-green > a {
   color: #5cb85c;
 }
@@ -254,11 +280,6 @@ table.dataTable thead .sorting:after {
 .panel-red {
   border-color: #d9534f;
 }
-.panel-red > .panel-heading {
-  border-color: #d9534f;
-  color: white;
-  background-color: #d9534f;
-}
 .panel-red > a {
   color: #d9534f;
 }
@@ -267,11 +288,6 @@ table.dataTable thead .sorting:after {
 }
 .panel-yellow {
   border-color: #f0ad4e;
-}
-.panel-yellow > .panel-heading {
-  border-color: #f0ad4e;
-  color: white;
-  background-color: #f0ad4e;
 }
 .panel-yellow > a {
   color: #f0ad4e;
@@ -432,3 +448,5 @@ table.dataTable thead .sorting:after {
     border-left-width: 0;
   }
 }
+ 
+
